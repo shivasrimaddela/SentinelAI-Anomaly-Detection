@@ -1,3 +1,0 @@
-python src/app.py
-python scripts/realtime_tail_processor.py
-python scripts/generate_logs.py
