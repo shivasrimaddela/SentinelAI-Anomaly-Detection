@@ -1,9 +1,9 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-from src.config import FLASK_HOST, FLASK_PORT, FLASK_DEBUG, CORS_ORIGINS
-from src.routes.logs import logs_bp
-from src.routes.alerts import alerts_bp
-from src.routes.stream import stream_bp
+from config import FLASK_HOST, FLASK_PORT, FLASK_DEBUG, CORS_ORIGINS
+from routes.logs import logs_bp
+from routes.alerts import alerts_bp
+from routes.stream import stream_bp
 
 def create_app():
     app = Flask(__name__)

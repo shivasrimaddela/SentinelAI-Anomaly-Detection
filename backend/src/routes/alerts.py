@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify
-from src.services.alert_service import AlertService
-from src.config import ALERT_LOG_PATH
+from services.alert_service import AlertService
+from config import ALERT_LOG_PATH
 
 alerts_bp = Blueprint('alerts', __name__)
 
