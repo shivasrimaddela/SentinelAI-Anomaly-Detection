@@ -1,7 +1,7 @@
 from flask import Blueprint
-from src.services.streaming_service import StreamingService
-from src.services.alert_service import AlertService
-from src.config import ALERT_LOG_PATH, LOG_PATH, STREAM_INTERVAL
+from services.streaming_service import StreamingService
+from services.alert_service import AlertService
+from config import ALERT_LOG_PATH, LOG_PATH, STREAM_INTERVAL
 
 stream_bp = Blueprint('stream', __name__)
 

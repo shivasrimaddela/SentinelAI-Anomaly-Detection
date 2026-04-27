@@ -15,6 +15,12 @@ MODELS_DIR = BASE_DIR / "models"
 MODEL_PATH = MODELS_DIR / "isoforest_model.joblib"
 VECTORIZER_PATH = MODELS_DIR / "tfidf_vectorizer.joblib"
 
+# Network/Wireshark model paths
+NETWORK_MODEL_PATH = MODELS_DIR / "network_isolation_model.joblib"
+NETWORK_SCALER_PATH = MODELS_DIR / "network_scaler.joblib"
+NETWORK_SESSIONS_PATH = DATA_DIR / "wireshark_sessions.json"
+WIRESHARK_XLS_PATH = DATA_DIR / "wire shark sample dataset.xls"
+
 # Model parameters
 ISOFOR_ESTIMATORS = 150
 ISOFOR_CONTAMINATION = 0.20

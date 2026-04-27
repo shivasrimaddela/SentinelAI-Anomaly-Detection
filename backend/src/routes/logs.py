@@ -1,7 +1,7 @@
 from flask import Blueprint, jsonify
 from pathlib import Path
 import json
-from src.config import LOG_PATH, ALERT_LOG_PATH
+from config import LOG_PATH, ALERT_LOG_PATH
 
 logs_bp = Blueprint('logs', __name__)
 
